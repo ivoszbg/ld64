@@ -80,4 +80,4 @@ clean:
 	git clean -xdf
 	cd apple-libtapi && git clean -xdf && git reset --hard
 	cd cctools-port && git clean -xdf && git reset --hard
-	cd xar && git clean -xdf && git reset --hard
+	cd xar && git clean -xdf && git reset --hard && ls
